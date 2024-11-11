@@ -1,0 +1,281 @@
+[21:38:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:38:23] [ServerMain/INFO]: Loaded 7 recipes
+[21:38:24] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:38:24] [Server thread/INFO]: Loading properties
+[21:38:24] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[21:38:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:38:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:38:24] [Server thread/INFO]: Debug logging is disabled
+[21:38:24] [Server thread/INFO]: Default game type: SURVIVAL
+[21:38:24] [Server thread/INFO]: Generating keypair
+[21:38:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:38:24] [Server thread/INFO]: Using default channel type
+[21:38:25] [Server thread/ERROR]: Could not load 'plugins\MultiWorld-Bukkit-1.5.8-SNAPSHOT.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency FacilisCommon. Please download and install FacilisCommon to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:435) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:972) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:303) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3871-Spigot-d2eba2c-3f9263b]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:38:25] [Server thread/INFO]: [HungerGames] Loading HungerGames v5.2.6
+[21:38:25] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+81-cde7184
+[21:38:25] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+81-cde7184
+[21:38:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:38:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:38:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:38:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:38:25] [Server thread/INFO]: Preparing level "world"
+[21:38:25] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:38:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:38:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:38:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:38:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:38:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:38:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:38:25] [Server thread/INFO]: Simulation Distance: 10
+[21:38:25] [Server thread/INFO]: View Distance: 10
+[21:38:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:38:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:38:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Max TNT Explosions: 100
+[21:38:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:38:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:38:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:38:25] [Server thread/INFO]: Mob Spawn Range: 6
+[21:38:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:38:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:38:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:38:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:38:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:38:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:38:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:38:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:38:25] [Server thread/INFO]: Simulation Distance: 10
+[21:38:25] [Server thread/INFO]: View Distance: 10
+[21:38:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:38:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:38:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Max TNT Explosions: 100
+[21:38:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:38:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:38:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:38:25] [Server thread/INFO]: Mob Spawn Range: 6
+[21:38:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:38:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:38:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:38:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:38:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:38:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:38:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:38:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:38:25] [Server thread/INFO]: Simulation Distance: 10
+[21:38:25] [Server thread/INFO]: View Distance: 10
+[21:38:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:38:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:38:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:38:25] [Server thread/INFO]: Max TNT Explosions: 100
+[21:38:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:38:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:38:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:38:25] [Server thread/INFO]: Mob Spawn Range: 6
+[21:38:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:38:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:38:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:38:27] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:38:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:38:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:38:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[21:38:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:38:28] [Worker-Main-3/INFO]: Preparing spawn area: 85%
+[21:38:28] [Server thread/INFO]: Time elapsed: 3054 ms
+[21:38:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:38:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:38:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:38:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:38:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[21:38:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[21:38:30] [Server thread/INFO]: Time elapsed: 2424 ms
+[21:38:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:38:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:38:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:38:32] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:38:32] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[21:38:32] [Server thread/INFO]: Time elapsed: 1916 ms
+[21:38:32] [Server thread/INFO]: [HungerGames] Enabling HungerGames v5.2.6
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] [0;31;1mUnable to setup vault![m[m
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m]   - Cash rewards will not be given out..[m[m
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] [0;37;22mconfig.yml loaded[m[m
+[21:38:32] [Server thread/INFO]: Loading HungerGames by JT122406
+[21:38:32] [Server thread/INFO]: Your Java Version is 21.0.3 This plugin is compatible with your version
+[21:38:32] [Server thread/INFO]: [HungerGames] ====================================================
+[21:38:32] [Server thread/INFO]: [HungerGames]  HungerGames works better if you use Paper 
+[21:38:32] [Server thread/INFO]: [HungerGames]  as your server software. 
+[21:38:32] [Server thread/INFO]: [HungerGames]   
+[21:38:32] [Server thread/INFO]: [HungerGames]  Paper offers significant performance improvements,
+[21:38:32] [Server thread/INFO]: [HungerGames]  bug fixes, security enhancements and optional
+[21:38:32] [Server thread/INFO]: [HungerGames]  features for server owners to enhance their server.
+[21:38:32] [Server thread/INFO]: [HungerGames]   
+[21:38:32] [Server thread/INFO]: [HungerGames]  Paper includes Timings v2, which is significantly
+[21:38:32] [Server thread/INFO]: [HungerGames]  better at diagnosing lag problems over v1.
+[21:38:32] [Server thread/INFO]: [HungerGames]   
+[21:38:32] [Server thread/INFO]: [HungerGames]  All of your plugins should still work, and the
+[21:38:32] [Server thread/INFO]: [HungerGames]  Paper community will gladly help you fix any issues.
+[21:38:32] [Server thread/INFO]: [HungerGames]   
+[21:38:32] [Server thread/INFO]: [HungerGames]  Join the Paper Community @ https://papermc.io
+[21:38:32] [Server thread/INFO]: [HungerGames] ====================================================
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] [0;37;22mMythicMobs not found, MythicMobs hooks have been [0;31;1mdisabled[m[m
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] [0;37;22mlanguage.yml loaded[m[m
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] Loading kits...[m[m
+[21:38:32] [Server thread/WARN]: §7[§e§lHungerGames§7] §eWARNING: Missing PotionEffectType for '§7PotionEffectType[33, DARKNESS]§e' please let dev know.
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] Kits have been [0;32;1mloaded![m[m
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] Loading random items...[m[m
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] 38 Random items have been [0;32;1mloaded![m[m
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] 2 Random bonus items have been [0;32;1mloaded![m[m
+[21:38:32] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] Loading arenas...[m[m
+[21:38:33] [Server thread/WARN]: §7[§e§lHungerGames§7] §eWARNING: Difficulty in world 'world' for arena 'arena1' is set to PEACEFUL...
+[21:38:33] [Server thread/WARN]: §7[§e§lHungerGames§7] §eWARNING: This can have negative effects on the game, please consider raising the difficulty.
+[21:38:33] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] Arena [0;36;1marena1[0;37;22m has been [0;32;1mloaded![m[m
+[21:38:33] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] [0;37;22mPAPI not found, Placeholders have been [0;31;1mdisabled[m[m
+[21:38:33] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] [0;37;22mmcMMO not found, mcMMO event hooks have been [0;31;1mdisabled[m[m
+[21:38:33] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] HungerGames has been [0;32;1menabled[0;37;22m in [0;36;1m0.31 seconds[0;37;22m![m[m
+[21:38:33] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+81-cde7184
+[21:38:33] [Server thread/ERROR]: You are running an unsupported server version!
+[21:38:33] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[21:38:33] [Server thread/INFO]: No kits found to migrate.
+[21:38:33] [Server thread/INFO]: Loaded 39095 items from items.json.
+[21:38:33] [Server thread/INFO]: Using locale en_US
+[21:38:33] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[21:38:33] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[21:38:33] [Server thread/INFO]: Using superperms-based permissions.
+[21:38:33] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+81-cde7184
+[21:38:33] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[21:38:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:38:33] [Server thread/INFO]: Done (8.617s)! For help, type "help"
+[21:38:33] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[21:38:33] [User Authenticator #1/INFO]: UUID of player Catpog is dc54c655-1b76-3696-af7f-ed063422488b
+[21:38:34] [Server thread/INFO]: Created a User for Catpog (dc54c655-1b76-3696-af7f-ed063422488b) for non Bukkit type: org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer
+[21:38:34] [Server thread/INFO]: Catpog joined the game
+[21:38:34] [Server thread/INFO]: Catpog[/188.27.82.113:55491] logged in with entity id 60 at ([world]-12.5, 85.0, -1.5)
+[21:38:34] [Server thread/WARN]: Error parsing kit tools: Invalid item list
+[21:38:34] [Server thread/WARN]: <dark_red>That kit is improperly defined. Contact an administrator.
+[21:38:59] [User Authenticator #2/INFO]: UUID of player Fuinul is 9ff79429-bbbd-3455-8125-c31af063cf15
+[21:39:00] [Server thread/INFO]: Fuinul joined the game
+[21:39:00] [Server thread/INFO]: Fuinul[/84.232.141.249:57776] logged in with entity id 66 at ([world]3.5, 81.0, -6.5)
+[21:39:00] [Server thread/WARN]: Error parsing kit tools: Invalid item list
+[21:39:00] [Server thread/WARN]: <dark_red>That kit is improperly defined. Contact an administrator.
+[21:39:08] [Server thread/INFO]: Catpog issued server command: /hg kit bowman
+[21:39:14] [User Authenticator #3/INFO]: UUID of player Aquaryus01 is 00450bdd-3973-3621-ab30-7b5151fe67b8
+[21:39:15] [Server thread/INFO]: Aquaryus01 joined the game
+[21:39:15] [Server thread/INFO]: Aquaryus01[/188.26.164.12:60036] logged in with entity id 73 at ([world]-7.5, 85.0, 5.5)
+[21:39:15] [Server thread/WARN]: Error parsing kit tools: Invalid item list
+[21:39:15] [Server thread/WARN]: <dark_red>That kit is improperly defined. Contact an administrator.
+[21:39:28] [User Authenticator #4/INFO]: UUID of player Benocles_ is 73ac7ef5-80ff-3fec-89f1-9d145f06715d
+[21:39:28] [Server thread/INFO]: Benocles_ joined the game
+[21:39:28] [Server thread/INFO]: Benocles_[/84.232.140.114:59304] logged in with entity id 74 at ([world]-86.14490601002747, 148.9957342504756, -130.8204706614946)
+[21:39:32] [Server thread/INFO]: [0;37;22m[21m[[0;36;22m[21mHungerGames[0;37;22m[21m]  [0;33;22m[21m Arena [0;31;1m[21marena1 [0;33;22m[21mwill begin in 30 seconds![m
+[21:39:32] [Server thread/INFO]: [0;37;22m[21m[[0;36;22m[21mHungerGames[0;37;22m[21m]  [0;33;22m[21m Use:[0;31;1m[21m /hg join arena1[0;33;22m[21m to join![m
+[21:39:39] [Server thread/INFO]: Benocles_ issued server command: /hg join arena1
+[21:39:39] [Server thread/WARN]: Benocles_ moved too quickly! 67.64490601002747,-62.99573425047561,95.3204706614946
+[21:39:40] [Server thread/INFO]: Fuinul issued server command: /hg join arena1
+[21:39:50] [Server thread/INFO]: Benocles_ issued server command: /hg kit bowman
+[21:39:50] [Server thread/INFO]: Fuinul issued server command: /hg kit
+[21:39:57] [Server thread/INFO]: Fuinul issued server command: /hg kit bowman
+[21:39:58] [Server thread/INFO]: Aquaryus01 issued server command: /hg pro
+[21:40:01] [Server thread/INFO]: Aquaryus01 issued server command: /hg kit pro
+[21:40:10] [Server thread/INFO]: Fuinul has made the advancement [Suit Up]
+[21:40:17] [Server thread/INFO]: Catpog has made the advancement [Suit Up]
+[21:40:43] [Server thread/INFO]: Catpog has made the advancement [Take Aim]
+[21:41:13] [Server thread/INFO]: Aquaryus01 issued server command: /hg
+[21:42:52] [Server thread/INFO]: Aquaryus01 issued server command: /hg spectate arena1
+[21:42:55] [Server thread/INFO]: Aquaryus01 issued server command: /hg spectate arena1
+[21:43:08] [Server thread/INFO]: Made Aquaryus01 a server operator
+[21:43:12] [Server thread/INFO]: Aquaryus01 issued server command: /hg spectate arena1
+[21:43:27] [Server thread/INFO]: Aquaryus01 issued server command: /hg listgames
+[21:43:33] [Server thread/INFO]: Aquaryus01 issued server command: /hg spectate
+[21:43:34] [Server thread/INFO]: Aquaryus01 issued server command: /hg spectate
+[21:43:37] [Server thread/INFO]: Aquaryus01 issued server command: /hg spectate arena1
+[21:47:31] [Server thread/INFO]: Benocles_ has made the advancement [Take Aim]
+[21:47:46] [Server thread/INFO]: Fuinul has made the advancement [Take Aim]
+[21:48:23] [Server thread/INFO]: Aquaryus01 issued server command: /gamemode creative
+[21:48:30] [Server thread/INFO]: Aquaryus01 issued server command: /tp Catpog
+[21:48:30] [Server thread/WARN]: Aquaryus01 moved too quickly! 119.20973302691367,-26.24341321608179,-167.02621476842666
+[21:48:59] [Server thread/INFO]: Catpog lost connection: Disconnected
+[21:48:59] [Server thread/INFO]: Catpog left the game
+[21:50:30] [Server thread/INFO]: Aquaryus01 issued server command: /spawn
+[21:50:30] [Server thread/WARN]: Aquaryus01 moved too quickly! -82.00850201062184,16.2691481561683,200.1946572878912
+[21:50:39] [Server thread/INFO]: Benocles_ lost connection: Disconnected
+[21:50:39] [Server thread/INFO]: Benocles_ left the game
+[21:50:39] [Server thread/INFO]: Fuinul lost connection: Disconnected
+[21:50:39] [Server thread/INFO]: Fuinul left the game
+[21:51:30] [Server thread/INFO]: Stopping the server
+[21:51:30] [Server thread/INFO]: Stopping server
+[21:51:30] [Server thread/INFO]: Disabling EssentialsSpawn v2.21.0-dev+81-cde7184
+[21:51:30] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+81-cde7184
+[21:51:30] [Server thread/INFO]: [HungerGames] Disabling HungerGames v5.2.6
+[21:51:30] [Server thread/INFO]: [0;37;22m[[0;36;22m[21mHungerGames[0;37;22m] HungerGames has been disabled![m[m
+[21:51:30] [Server thread/INFO]: Saving players
+[21:51:30] [Server thread/INFO]: Aquaryus01 lost connection: Server closed
+[21:51:30] [Server thread/INFO]: Aquaryus01 left the game.
+[21:51:30] [Server thread/INFO]: Saving worlds
+[21:51:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:51:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:51:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:51:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:51:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:51:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:51:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

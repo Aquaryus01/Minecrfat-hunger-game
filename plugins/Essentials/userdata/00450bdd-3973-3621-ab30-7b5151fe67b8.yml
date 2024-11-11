@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 188.26.164.12
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1716749430561
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1716749490281
+  login: 1716748755027
+money: '0'
+logoutlocation:
+  world: 4ef3598f-7566-4a15-8e3d-d1c9c7f3f3d7
+  world-name: world
+  x: -25.69999998807907
+  y: 101.0
+  z: 0.11099293234042605
+  yaw: -85.78958129882812
+  pitch: 16.199504852294922
+last-account-name: Aquaryus01
+lastlocation:
+  world: 4ef3598f-7566-4a15-8e3d-d1c9c7f3f3d7
+  world-name: world
+  x: 56.50850201062185
+  y: 84.7308518438317
+  z: -199.6946572878912
+  yaw: -114.50581359863281
+  pitch: 26.249570846557617

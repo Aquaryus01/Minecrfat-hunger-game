@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 84.232.140.114
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1716748237847
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1716749439736
+  login: 1716748768277
+money: '0'
+lastlocation:
+  world: 4ef3598f-7566-4a15-8e3d-d1c9c7f3f3d7
+  world-name: world
+  x: -183.17565350221307
+  y: 84.0
+  z: -1.036587242347768
+  yaw: -75.712158203125
+  pitch: 16.649667739868164
+logoutlocation:
+  world: 4ef3598f-7566-4a15-8e3d-d1c9c7f3f3d7
+  world-name: world
+  x: -67.90583914192182
+  y: 127.07463581212885
+  z: -144.94588873261412
+  yaw: -132.3411407470703
+  pitch: 20.999866485595703
+last-account-name: Benocles_

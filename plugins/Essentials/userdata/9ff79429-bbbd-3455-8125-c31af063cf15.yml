@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 84.232.141.249
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1716749439937
+  login: 1716748740028
+money: '0'
+last-account-name: Fuinul
+lastlocation:
+  world: 4ef3598f-7566-4a15-8e3d-d1c9c7f3f3d7
+  world-name: world
+  x: 3.5
+  y: 81.0
+  z: -6.5
+  yaw: 1.260789155960083
+  pitch: 0.0
+logoutlocation:
+  world: 4ef3598f-7566-4a15-8e3d-d1c9c7f3f3d7
+  world-name: world
+  x: -25.69999998807907
+  y: 101.0
+  z: -0.394547404131827
+  yaw: 39.161521911621094
+  pitch: 15.599420547485352
